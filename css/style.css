@@ -69,6 +69,10 @@ h4{
     display: inline-block;
     margin-top: 3rem;
     text-align: center;
+    border: none;
+}
+.boton:hover{
+    cursor: pointer;
 }
 .boton-amarillo{
     background: #e08709;
@@ -295,4 +299,47 @@ h4{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+/* contacto */
+.contacto p{
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    margin:2rem 0 0 0;
+}
+legend{
+    font-size: 2.4rem;
+    color: #4f4f4f;
+}
+label{
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+input:not([type="submit"]),
+textarea,
+select{
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background: #e1e1e1;
+    margin-bottom: 2rem;
+    border:none;
+    border-radius: 1rem;
+}
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+select{
+    appearance: none;
+}
+textarea{
+    height: 20rem;
+}
+.forma-contacto{
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
